@@ -9,11 +9,11 @@
 
 set :stage, :production
 
-role :app, %w{rak.nycdevshop.com}
-role :web, %w{rak.nycdevshop.com}
-role :db,  %w{rak.nycdevshop.com}
+role :app, %w{rak.parkerworks.us}
+role :web, %w{rak.parkerworks.us}
+role :db,  %w{rak.parkerworks.us}
 
-server 'rak.nycdevshop.com',
+server 'rak.parkerworks.us',
 user: 'railsapps',
 roles: %w{web app},
 ssh_options: {
