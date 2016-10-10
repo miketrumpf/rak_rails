@@ -2,10 +2,9 @@
 lock '3.6.0'
 
 set :application, 'rak'
-set :repo_url, 'git@github.com/miketrumpf/rak_rails.git'
+# set :repo_url, 'git@github.com/miketrumpf/rak_rails.git'
 
-
-
+set :repo_url, "https://github.com/miketrumpf/rak_rails.git"
 set :deploy_to, '/home/railsapps/public_html/rak/current/public'
 
 SSHKit.config.command_map[:rake]  = "bundle exec rake"
